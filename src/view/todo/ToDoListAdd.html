@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/master.css">
+</head>
+<body>
+  <div style="background:#337ab7; padding-left:5px">
+    <p>
+      <a class="toolbar_item" href="/todo">Домой</a>
+      <a class="toolbar_item">|</a>
+      <a class="toolbar_item" href="/todo/get">Показать таблицу</a>
+      <a class="toolbar_item">|</a>
+      <a class="toolbar_item_active">Добавить</a>
+      <a class="toolbar_item">|</a>
+      <a class="toolbar_item" href="/todo/edit">Редактировать таблицу</a>
+      <a class="toolbar_item">|</a>
+      <a class="toolbar_item" href="/auth/logout">Выйти</a>
+    </p>
+  </div>
+  <div class="container">
+    <form method="post" action="/todo/adding">
+      <input type="text" name="todo_text">
+      <input type="submit" class="btn btn-primary" value="Добавить" name="add_btn">
+      <input type="submit" class="btn btn-primary" value="Добавить ещё" name="add_again_btn">
+    </form>
+  </div>
+
+</body>

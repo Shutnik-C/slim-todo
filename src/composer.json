@@ -1,0 +1,9 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "twig/twig": "^2.0",
+        "slim/pdo": "^1.10",
+        "voku/simple-mysqli": "^7.2",
+        "slim/twig-view": "^2.4"
+    }
+}

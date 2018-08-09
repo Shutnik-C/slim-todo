@@ -1,0 +1,13 @@
+a.toolbar_item
+{
+  color: #FFF;
+  font-size: 1.3em;
+}
+
+a.toolbar_item_active
+{
+  color: #FFF;
+  font-size: 1.1em;
+  font-style: italic;
+  text-decoration: none;
+}

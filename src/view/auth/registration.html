@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Авторизация</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/master.css">
+  <style type="text/css">
+
+
+  </style>
+</head>
+<body>
+  <div style="background:#337ab7; padding-left:5px">
+    <p>
+      <a class="toolbar_item" href="/">Домой</a>
+      <a class="toolbar_item">|</a>
+      <a class="toolbar_item" href="/auth">Авторизация</a>
+      <a class="toolbar_item">|</a>
+      <a class="toolbar_item_active">Регистрация</a>
+    </p>
+  </div>
+  <div class="container" style="margin-top: 5px">
+    <form class="form-horizontal" method="post" action="/auth/registrate">
+      <div>
+        <div class="control-group">
+          <label class="control-label">Login</label>
+          <div class="controls">
+            <input type="text" name="login" placeholder="login">
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="inputPassword">Password</label>
+          <div class="controls">
+            <input type="password" id="inputPassword" name="password" placeholder="password" maxlength="20">
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="inputPassword">Password again</label>
+          <div class="controls">
+            <input type="password" id="inputPassword" name="again_password" placeholder="password again" maxlength="20">
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="controls" style="margin:auto">
+            <button type="submit" style="margin:0px;" class="btn btn-primary">Зарегестрироваться</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
